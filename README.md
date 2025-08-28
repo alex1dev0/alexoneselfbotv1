@@ -1,1 +1,1 @@
-#Download and look in the readme.txt to a step by step guide.
+# Download and look in the readme.txt to a step by step guide.
