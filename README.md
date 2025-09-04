@@ -59,14 +59,7 @@ Ora è tutto pronto! La prima cosa che puoi fare è ".help" e vedere tutti i com
 Grazie per l’acquisto! @Alexone  
 Se hai problemi con la licenza, scrivimi in DM: 'idiozia'.
 
- _   _  ___________ _    _ 
-| \ | |/  ___|  ___| |  | |
-|  \| |\ `--.| |_  | |  | |
-| . ` | `--. \  _| | |/\| |
-| |\  |/\__/ / |   \  /\  /
-\_| \_/\____/\_|    \/  \/ 
-                           
-All Categories:
+NSFW All Categories:
 
 Anal 
 Ass 
