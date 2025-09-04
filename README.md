@@ -26,10 +26,7 @@ Now is all setup, first thing you wanna do is ".help" and look for all the comma
 Thanks For your PURCHASE! @Alexone
 If do you encounter some problems with the license, reach me in dm's 'idiozia'.
 
- _  ___  _   _    _   _   _  _ 
-| ||_ _|/ \ | |  | | / \ | \| |
-| | | || o || |_ | || o || \\ |
-|_| |_||_n_||___||_||_n_||_|\_|
+## ITALIAN
                                
 Benvenuto in AlexonePersonalBotV1 README!
 Qui troverai tutte le istruzioni per risolvere eventuali problemi
