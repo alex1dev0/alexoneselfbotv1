@@ -24,7 +24,7 @@ and problems with the selfbot, if do you have any, report them to me thanks!
 Now is all setup, first thing you wanna do is ".help" and look for all the commands!
 
 Thanks For your PURCHASE! @Alexone
-If do you encounter some problems with the license, reach me in dm's 'idiozia'.
+If do you encounter some problems with the license, reach me in dm's 'alex1dev'.
 
 # ITALIAN
                                
