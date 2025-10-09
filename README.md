@@ -1,79 +1,143 @@
-Welcome to AlexonePersonalBotV1 README!
-Here you will find all the instruction to resolve all the problems you will encounter 
-and a guide how to start and modify things.
+# AlexonePersonalBotV1
 
-### What you will need?
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-Private-red.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-green.svg)](README.md)
 
-- Personal Token
-- API KEYS
-- A life
+> **⚠️ Disclaimer**: Questo è un selfbot per uso personale. L'utilizzo di selfbot potrebbe violare i Termini di Servizio di Discord. Utilizzalo a tuo rischio e pericolo.
 
-## First Step
-First you wanna open the CONFIG.txt to insert all the info you will need to setup your selfbot,
-read the notes (comments).
+## 📋 Indice
 
-## Second Step
-Before starting the bot, you will need to do in your cmd this command "pip install -r requirements.txt",
-this will help you to install the requirements to start the selfbot
+- [Descrizione](#descrizione)
+- [Prerequisiti](#prerequisiti)
+- [Installazione](#installazione)
+- [Configurazione](#configurazione)
+- [Utilizzo](#utilizzo)
+- [Comandi Disponibili](#comandi-disponibili)
+- [Risoluzione Problemi](#risoluzione-problemi)
+- [Supporto](#supporto)
+- [English Version](#english-version)
 
-## Third Step
-Now you can start your selfbot with the command "py main.py" or "python3 main.py" in the cmd, the cmd will report you all the errors
-and problems with the selfbot, if do you have any, report them to me thanks!
+## 📖 Descrizione
 
-## Final Step
-Now is all setup, first thing you wanna do is ".help" and look for all the commands!
+AlexonePersonalBotV1 è un selfbot Discord personalizzato che offre una varietà di funzionalità per migliorare la tua esperienza su Discord. Il bot include comandi personalizzati, funzionalità automatizzate e molto altro.
 
-Thanks For your PURCHASE! @Alexone
-If do you encounter some problems with the license, reach me in dm's 'alex1dev'.
+## 🔧 Prerequisiti
 
-# ITALIAN
-                               
-Benvenuto in AlexonePersonalBotV1 README!
-Qui troverai tutte le istruzioni per risolvere eventuali problemi
-e una guida su come iniziare e modificare le cose.
+Prima di iniziare, assicurati di avere:
 
-### Di cosa hai bisogno?
+- **Python 3.8+** installato sul tuo sistema
+- **Token Discord personale** (User Token)
+- **API Keys** necessarie (specificate nel file di configurazione)
+- Connessione internet stabile
 
-- Token personale
-- API KEYS
-- Una vita
+## 🚀 Installazione
 
-## Primo Passo
-Per prima cosa, apri il file CONFIG.txt e inserisci tutte le informazioni necessarie per configurare il tuo selfbot.
-Leggi le note (commenti).
+### Passo 1: Clona o scarica il progetto
+```bash
+git clone [repository-url]
+cd AlexonePersonalBotV1
+```
 
-## Secondo Passo
-Prima di avviare il bot, esegui questo comando nel tuo cmd: "pip install -r requirements.txt"
-Questo ti permetterà di installare tutti i requisiti necessari per avviare il selfbot.
+### Passo 2: Installa le dipendenze
+```bash
+pip install -r requirements.txt
+```
 
-## Terzo Passo
-Ora puoi avviare il selfbot con il comando "py main.py" nel cmd. Il cmd ti mostrerà tutti gli errori
-e problemi del selfbot. Se ne hai, segnalameli, grazie!
+### Passo 3: Configura il bot
+1. Apri il file `CONFIG.txt`
+2. Inserisci tutte le informazioni richieste seguendo i commenti nel file
+3. Salva le modifiche
 
-## Passo Finale
-Ora è tutto pronto! La prima cosa che puoi fare è ".help" e vedere tutti i comandi disponibili!
+## ⚙️ Configurazione
 
-Grazie per l’acquisto! @Alexone  
-Se hai problemi con la licenza, scrivimi in DM: 'idiozia'.
+Il file `CONFIG.txt` contiene tutte le impostazioni necessarie:
 
-## NSFW All Categories:
+```txt
+# Token Discord (OBBLIGATORIO)
+TOKEN = your_discord_token_here
 
-Anal 
-Ass 
-Boobs 
-Gonewild 
-Hanal 
-Hass 
-Hboobs 
-Hentai 
-Hkitsune 
-Hmidriff 
-Hneko 
-Hthigh 
-Neko 
-Paizuri 
-Pgif 
-Pussy 
-Tentacle 
-Thigh 
-Yaoi
+# API Keys (se necessarie)
+API_KEY_1 = your_api_key_here
+API_KEY_2 = your_api_key_here
+
+# Altre configurazioni...
+```
+
+> **🔒 Sicurezza**: Non condividere mai il tuo token Discord o le API keys con nessuno!
+
+## 🎮 Utilizzo
+
+### Avvio del Bot
+
+Esegui uno dei seguenti comandi nel terminale:
+
+```bash
+# Windows
+py main.py
+
+# Linux/Mac
+python3 main.py
+```
+
+### Primo Avvio
+
+1. Avvia il bot seguendo le istruzioni sopra
+2. Controlla il terminale per eventuali errori
+3. Una volta avviato, digita `.help` in Discord per vedere tutti i comandi disponibili
+
+## 📝 Comandi Disponibili
+
+| Comando | Descrizione |
+|---------|-------------|
+| `.help` | Mostra tutti i comandi disponibili |
+| `.status` | Controlla lo stato del bot |
+| `.info` | Informazioni sul bot |
+
+> Per la lista completa dei comandi, utilizza `.help` dopo aver avviato il bot.
+
+## 🔧 Risoluzione Problemi
+
+### Problemi Comuni
+
+**❌ Errore: ModuleNotFoundError**
+```bash
+pip install -r requirements.txt
+```
+
+**❌ Errore: Token non valido**
+- Verifica che il token nel `CONFIG.txt` sia corretto
+- Assicurati di non aver incluso spazi extra
+
+**❌ Il bot non risponde**
+- Controlla la connessione internet
+- Verifica che il token sia ancora valido
+- Riavvia il bot
+
+### Log degli Errori
+
+Il terminale mostrerà tutti gli errori e i problemi. Se incontri errori persistenti:
+
+1. Copia il messaggio di errore completo
+2. Controlla la sezione [Supporto](#supporto)
+3. Contatta lo sviluppatore se necessario
+
+## 📞 Supporto
+
+Se hai problemi o domande:
+
+- **Sviluppatore**: @alex1dev
+- **Discord DM**: `alex1dev`
+- **Problemi di licenza**: Contatta via DM
+
+> **📧 Prima di contattare**: Assicurati di aver seguito tutti i passaggi di installazione e configurazione.
+
+## 📄 Licenza
+
+Questo software è distribuito sotto licenza privata. L'utilizzo è limitato agli acquirenti autorizzati.
+
+---
+
+**Grazie per l'acquisto!** 🎉
+
+*Realizzato con ❤️ da @alex1dev*
