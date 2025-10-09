@@ -16,7 +16,6 @@
 - [Comandi Disponibili](#comandi-disponibili)
 - [Risoluzione Problemi](#risoluzione-problemi)
 - [Supporto](#supporto)
-- [English Version](#english-version)
 
 ## 📖 Descrizione
 
@@ -54,12 +53,14 @@ pip install -r requirements.txt
 Il file `CONFIG.txt` contiene tutte le impostazioni necessarie:
 
 ```txt
-# Token Discord (OBBLIGATORIO)
-TOKEN = your_discord_token_here
+// Your personal token if you don't know how to do it, ask me in dm.
+TOKEN=
 
-# API Keys (se necessarie)
-API_KEY_1 = your_api_key_here
-API_KEY_2 = your_api_key_here
+[MAINTENANCE] // Our SelfBot has OpenAI integrated for autoreply, pls put yours here. ( example. sk-xxxxxxxxxxxxxxxxxxxx )
+[MAINTENANCE] // OPENAI_API_KEY=
+
+// Your Personal Paypal Email or a link ( Recommended Email to bypass antilink bots ).
+PAYPAL_EMAIL=
 
 # Altre configurazioni...
 ```
@@ -91,7 +92,7 @@ python3 main.py
 | Comando | Descrizione |
 |---------|-------------|
 | `.help` | Mostra tutti i comandi disponibili |
-| `.status` | Controlla lo stato del bot |
+| `.afk` | Mette il proprio stato in afk |
 | `.info` | Informazioni sul bot |
 
 > Per la lista completa dei comandi, utilizza `.help` dopo aver avviato il bot.
