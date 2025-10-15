@@ -4,74 +4,74 @@
 [![License](https://img.shields.io/badge/License-Private-red.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-green.svg)](README.md)
 
-> **⚠️ Disclaimer**: Questo è un selfbot per uso personale. L'utilizzo di selfbot potrebbe violare i Termini di Servizio di Discord. Utilizzalo a tuo rischio e pericolo.
+> **⚠️ Disclaimer**: This is a selfbot for personal use. Using selfbots may violate Discord's Terms of Service. Use at your own risk.
 
-## 📋 Indice
+## 📋 Index
 
-- [Descrizione](#descrizione)
-- [Prerequisiti](#prerequisiti)
-- [Installazione](#installazione)
-- [Configurazione](#configurazione)
-- [Utilizzo](#utilizzo)
-- [Comandi Disponibili](#comandi-disponibili)
-- [Risoluzione Problemi](#risoluzione-problemi)
-- [Supporto](#supporto)
+- [Description](#description)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Available Commands](#available-commands)
+- [Troubleshooting](#troubleshooting)
+- [Support](#support)
 
-## 📖 Descrizione
+## 📖 Description
 
-AlexonePersonalBotV1 è un selfbot Discord personalizzato che offre una varietà di funzionalità per migliorare la tua esperienza su Discord. Il bot include comandi personalizzati, funzionalità automatizzate e molto altro.
+AlexonePersonalBotV1 is a custom Discord selfbot that offers a variety of features to enhance your Discord experience. The bot includes custom commands, advanced functions, and tools for personal use.
 
-## 🔧 Prerequisiti
+## 🔧 Prerequisites
 
-Prima di iniziare, assicurati di avere:
+Before starting, make sure you have:
 
-- **Python 3.8+** installato sul tuo sistema
-- **Token Discord personale** (User Token)
-- **API Keys** necessarie (specificate nel file di configurazione)
-- Connessione internet stabile
+- **Python 3.8+** installed on your system
+- **Personal Discord Token** (User Token)
+- **Required API Keys** (specified in the configuration file)
+- Stable internet connection
 
-## 🚀 Installazione
+## 🚀 Installation
 
-### Passo 1: Clona o scarica il progetto
+### Step 1: Clone or download the project
 ```bash
 git clone [repository-url]
 cd AlexonePersonalBotV1
 ```
 
-### Passo 2: Installa le dipendenze
+### Step 2: Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Passo 3: Configura il bot
-1. Apri il file `CONFIG.txt`
-2. Inserisci tutte le informazioni richieste seguendo i commenti nel file
-3. Salva le modifiche
+### Step 3: Configure the bot
+1. Open the `CONFIG.txt` file
+2. Enter all required information following the comments in the file
+3. Save the changes
 
-## ⚙️ Configurazione
+## ⚙️ Configuration
 
-Il file `CONFIG.txt` contiene tutte le impostazioni necessarie:
+The `CONFIG.txt` file contains all necessary settings:
 
 ```txt
-// Your personal token if you don't know how to do it, ask me in dm.
+// Your personal token if you don't know how to get it, ask me in dm.
 TOKEN=
 
 [MAINTENANCE] // Our SelfBot has OpenAI integrated for autoreply, pls put yours here. ( example. sk-xxxxxxxxxxxxxxxxxxxx )
 [MAINTENANCE] // OPENAI_API_KEY=
 
-// Your Personal Paypal Email or a link ( Recommended Email to bypass antilink bots ).
+// Your Personal Paypal Email or a link (Recommended Email to bypass antilink bots).
 PAYPAL_EMAIL=
 
-# Altre configurazioni...
+# Other configurations...
 ```
 
-> **🔒 Sicurezza**: Non condividere mai il tuo token Discord o le API keys con nessuno!
+> **🔒 Security**: Never share your Discord token or API keys with anyone!
 
-## 🎮 Utilizzo
+## 🎮 Usage
 
-### Avvio del Bot
+### Starting the Bot
 
-Esegui uno dei seguenti comandi nel terminale:
+Run one of the following commands in the terminal:
 
 ```bash
 # Windows
@@ -81,64 +81,64 @@ py main.py
 python3 main.py
 ```
 
-### Primo Avvio
+### First Start
 
-1. Avvia il bot seguendo le istruzioni sopra
-2. Controlla il terminale per eventuali errori
-3. Una volta avviato, digita `.help` in Discord per vedere tutti i comandi disponibili
+1. Start the bot following the instructions above
+2. Check the terminal for any errors
+3. Once started, type `.help` in Discord to see all available commands
 
-## 📝 Comandi Disponibili
+## 📝 Available Commands
 
-| Comando | Descrizione |
-|---------|-------------|
-| `.help` | Mostra tutti i comandi disponibili |
-| `.afk` | Mette il proprio stato in afk |
-| `.info` | Informazioni sul bot |
+| Command  | Description                    |
+|----------|--------------------------------|
+| `.help`  | Shows all available commands   |
+| `.afk`   | Sets your status to afk        |
+| `.info`  | Information about the bot      |
 
-> Per la lista completa dei comandi, utilizza `.help` dopo aver avviato il bot.
+> For the complete list of commands, use `.help` after starting the bot.
 
-## 🔧 Risoluzione Problemi
+## 🔧 Troubleshooting
 
-### Problemi Comuni
+### Common Issues
 
-**❌ Errore: ModuleNotFoundError**
+**❌ Error: ModuleNotFoundError**
 ```bash
 pip install -r requirements.txt
 ```
 
-**❌ Errore: Token non valido**
-- Verifica che il token nel `CONFIG.txt` sia corretto
-- Assicurati di non aver incluso spazi extra
+**❌ Error: Invalid Token**
+- Check that the token in `CONFIG.txt` is correct
+- Make sure you haven’t included extra spaces
 
-**❌ Il bot non risponde**
-- Controlla la connessione internet
-- Verifica che il token sia ancora valido
-- Riavvia il bot
+**❌ Bot not responding**
+- Check your internet connection
+- Make sure the token is still valid
+- Restart the bot
 
-### Log degli Errori
+### Error Logs
 
-Il terminale mostrerà tutti gli errori e i problemi. Se incontri errori persistenti:
+The terminal will show all errors and problems. If you encounter persistent errors:
 
-1. Copia il messaggio di errore completo
-2. Controlla la sezione [Supporto](#supporto)
-3. Contatta lo sviluppatore se necessario
+1. Copy the full error message
+2. Check the [Support](#support) section
+3. Contact the developer if necessary
 
-## 📞 Supporto
+## 📞 Support
 
-Se hai problemi o domande:
+If you have problems or questions:
 
-- **Sviluppatore**: @alex1dev
+- **Developer**: @alex1dev
 - **Discord DM**: `alex1dev`
-- **Problemi di licenza**: Contatta via DM
+- **License issues**: Contact via DM
 
-> **📧 Prima di contattare**: Assicurati di aver seguito tutti i passaggi di installazione e configurazione.
+> **📧 Before contacting**: Make sure you have followed all installation and configuration steps.
 
-## 📄 Licenza
+## 📄 License
 
-Questo software è distribuito sotto licenza privata. L'utilizzo è limitato agli acquirenti autorizzati.
+This software is distributed under a private license. Use is limited to authorized buyers.
 
 ---
 
-**Grazie per l'acquisto!** 🎉
+**Thank you for your purchase!** 🎉
 
-*Realizzato con ❤️ da @alex1dev*
+*Made with ❤️ by @alex1dev*
